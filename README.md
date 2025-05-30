@@ -153,7 +153,6 @@ your GitHub account.
      PTY allocation request failed on channel 0
      Hi tamucstudent! You've successfully authenticated, but GitHub does not provide shell access.
      Connection to github.com closed.
-	 
 	 ```
 	 And say 'yes' if prompted to add Github as a known host as shown here.  If it says you have successfully
 	 authenticated, then you probably have configured your ssh key correctly for Github use.  If this step does
