@@ -143,8 +143,8 @@ your GitHub account.
 	 key, and copy it.  Then create a new ssh key in GitHub and paste in this public key.
 	 
   5. **IMPORTANT** If you have never connected to Github before using ssh, you should ensure that Github is an known host and that your ssh
-     key access that you just configured is working.  Do the following to test this:
-     ```
+   key access that you just configured is working.  Do the following to test this:
+   ```
 	 $ ssh git@github.com
      The authenticity of host 'github.com (140.82.112.4)' can't be established.
      ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
@@ -182,6 +182,7 @@ your GitHub account.
 	 ```
 	 $ ssh-add -l
    ```
+
 
 ## STEP 2: Install and configure Docker for your operating system.
 
