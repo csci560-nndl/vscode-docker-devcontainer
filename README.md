@@ -146,20 +146,20 @@ your GitHub account.
    key access that you just configured is working.  Do the following to test this:
    ```
 	 $ ssh git@github.com
-     The authenticity of host 'github.com (140.82.112.4)' can't be established.
-     ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
-     Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-     Warning: Permanently added 'github.com,140.82.112.4' (ECDSA) to the list of known hosts.
-     PTY allocation request failed on channel 0
-     Hi tamucstudent! You've successfully authenticated, but GitHub does not provide shell access.
-     Connection to github.com closed.
+   The authenticity of host 'github.com (140.82.112.4)' can't be established.
+   ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+   Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+   Warning: Permanently added 'github.com,140.82.112.4' (ECDSA) to the list of known hosts.
+   PTY allocation request failed on channel 0
+   Hi tamucstudent! You've successfully authenticated, but GitHub does not provide shell access.
+   Connection to github.com closed.
 	 ```
 
-	 And say 'yes' if prompted to add Github as a known host as shown here.  If it says you have successfully
-	 authenticated, then you probably have configured your ssh key correctly for Github use.  If this step does
-	 not successfully connect, do no proceed until you get help or correctly set up your ssh key to be able to
-	 access your GitHub account.
-	 
+	And say 'yes' if prompted to add Github as a known host as shown here.  If it says you have successfully
+	authenticated, then you probably have configured your ssh key correctly for Github use.  If this step does
+	not successfully connect, do no proceed until you get help or correctly set up your ssh key to be able to
+	access your GitHub account.
+
 	6. **IMPORTANT** Most Windows users, and sometiems MacOS users, find that the `ssh-agent` is not automatically
 	 configured and running for them when they install the `git` tools.  When you create a container, your key needs
 	 to be communicated into the container so that you can access your GitHub account using it.  If the `ssh-agent`
